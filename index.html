@@ -53,10 +53,29 @@
         <section id="Contatos">
             <h2>Contatos</h2>
             <p>Tem um projeto em mente? Entre em contato</p>
-            <Address>
-                Email: <a href="mailto:Ronaldohunter54@gmail.com">Ronaldohunter54@gmail.com</a> <br>
-                Telefone: <a href="tel:+5594992961626"> (94) 99296-1626</a>
-            </Address>
+            <form action="">
+                <label for="Nome">Nome: </label>
+                <input type="text" Nome="nome" id="nome" required> <br>
+                <label for="Email">E-mail: </label>
+                <input type="Email" Nome="Email" id="Email" required> <br>
+                <label for="Telefome">Telefone: </label>
+                <input type="Tel" Nome="Telefone" id="Telefone" required> <br>
+                <label for="Assunto">Assunto: </label>
+                <Select name="assunto" id="Assunto">
+                <option value= "Orçamento">Orçamento</option>
+                 <option value= "Dúvida">Dúvida</option>
+                 <option value="Outro">Outro</option>
+                </Select>
+                <br>
+                <label for="Mensagem">Mensagem</label>
+                <textarea name="Mensagem" id="Mensagem" cols="30" rows="10"></textarea>
+                <br>
+                <input type="checkbox" id="inscricao" name="inscricao" value="inscricao">
+                <label for="inscrição">Deseja se inscrever para receber minha newsletter? Fique por dentro.</label>
+
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </footer>
 </body>
